@@ -9,7 +9,6 @@
     <version>0.0.1</version>
 
     <properties>
-
         <cucumber.version>4.8.0</cucumber.version>
         <selenium.version>3.141.59</selenium.version>
         <junit.version>4.10</junit.version>

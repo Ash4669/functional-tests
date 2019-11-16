@@ -1,9 +1,13 @@
 package stepdefs;
 
-import cucumber.api.java.en.Given;
+import io.cucumber.java.en.Then;
 
 public class Links {
-    @Given("I am on the website")
-    public void iAmOnTheWebsite() {
+    @Then("the correct main page links are displayed")
+    public void theCorrectMainPageLinksAreDisplayed() {
+    }
+
+    @Then("correct profile links are displayed")
+    public void correctProfileLinksAreDisplayed() {
     }
 }
