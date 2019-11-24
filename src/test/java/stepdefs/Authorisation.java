@@ -1,6 +1,8 @@
 package stepdefs;
 
-import io.cucumber.java.en.And;
+import cucumber.api.java8.En;
 
-public class Authorisation {
+public class Authorisation implements En{
+    public Authorisation() {
+    }
 }

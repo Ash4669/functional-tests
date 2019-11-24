@@ -1,13 +1,12 @@
 package stepdefs;
 
-import io.cucumber.java.en.Then;
+import cucumber.api.java8.En;
 
-public class Links {
-    @Then("the correct main page links are displayed")
-    public void theCorrectMainPageLinksAreDisplayed() {
-    }
-
-    @Then("correct profile links are displayed")
-    public void correctProfileLinksAreDisplayed() {
+public class Links implements En{
+    public Links() {
+        Then("^the correct main page links are displayed$", () -> {
+        });
+        Then("^correct profile links are displayed$", () -> {
+        });
     }
 }
