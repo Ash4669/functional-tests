@@ -1,6 +1,5 @@
 package stepdefs;
 
-import Browser.Browser;
 import cucumber.api.java8.En;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -8,9 +7,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class UIJourneySteps implements En {
     String baseUrl = "http://127.0.0.1:5000";
 
-    UIJourneySteps() {
+    public UIJourneySteps() {
         Then("^I am on the website", () -> {
-            Browser.getDriver().get(baseUrl);
+//            Browser.getDriver().get(baseUrl);
         });
         And("^I am logged out$", () -> {
         });
