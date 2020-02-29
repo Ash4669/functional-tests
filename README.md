@@ -6,4 +6,4 @@ This is the functional test suite for the website.
 
 > To Do:
 1. Config file needs creating to store preset passwords for admin or random generation of users.
-2. 
+2. Write proper unit tests for util classes and browser class.

@@ -8,7 +8,7 @@ public class Browser {
     private static WebDriver driver;
 
     public static WebDriver getDriver() {
-        WebDriverManager.chromedriver().version("78.0.3904.105").setup();
+        WebDriverManager.chromedriver().setup();
         if (driver == null) {
             driver = new ChromeDriver();
         }
