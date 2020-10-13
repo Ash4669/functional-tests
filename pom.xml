@@ -23,7 +23,7 @@
     <properties>
         <cucumber.version>4.2.0</cucumber.version>
         <selenium.version>3.14.0</selenium.version>
-        <junit.version>4.10</junit.version>
+        <junit.version>4.13.1</junit.version>
         <webdrivermanager.version>3.7.1</webdrivermanager.version>
     </properties>
 
@@ -115,7 +115,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.12</version>
+            <version>4.13.1</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
